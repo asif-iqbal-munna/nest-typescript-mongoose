@@ -9,7 +9,7 @@ import { Todo, TodoSchema } from './schemas/todo.schema';
   providers: [TodoService],
   controllers: [TodoController],
   imports: [
-    MongooseModule.forFeature([{ name: Todo.name, schema: TodoSchema }])
-  ]
+    MongooseModule.forFeature([{ name: Todo.name, schema: TodoSchema }]),
+  ],
 })
-export class TodoModule { }
+export class TodoModule {}

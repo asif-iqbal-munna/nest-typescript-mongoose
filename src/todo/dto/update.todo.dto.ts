@@ -2,5 +2,5 @@
 import { BaseTodoDto } from './base-todo.dto';
 
 export class updateTodoDto extends BaseTodoDto {
-    completedAt: Date;
+  completedAt: Date;
 }

@@ -1,4 +1,4 @@
 /* eslint-disable prettier/prettier */
 import { BaseTodoDto } from './base-todo.dto';
 
-export class createTodoDto extends BaseTodoDto { }
+export class createTodoDto extends BaseTodoDto {}
